@@ -3,4 +3,4 @@ from django.shortcuts import render
 # Create your views here.
 
 def drag(request):
-	return render(reuest)
+	return render(request, 'html/drag.html')
